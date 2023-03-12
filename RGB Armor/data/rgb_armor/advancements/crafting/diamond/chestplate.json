@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "rgb_armor:diamond/chestplate"
+            }
+        }
+    },
+    "rewards": {
+        "function": "rgb_armor:craft_diamond_chestplate"
+    }
+}

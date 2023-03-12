@@ -1,0 +1,13 @@
+execute if score Percentage durability_warn_num matches 5 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_on/enabled/5
+execute if score Percentage durability_warn_num matches 10 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_on/enabled/10
+execute if score Percentage durability_warn_num matches 20 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_on/enabled/20
+execute if score Percentage durability_warn_num matches 5 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_on/disabled/5
+execute if score Percentage durability_warn_num matches 10 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_on/disabled/10
+execute if score Percentage durability_warn_num matches 20 if score Sound durability_warn_num matches 1 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_on/disabled/20
+execute if score Percentage durability_warn_num matches 5 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_off/enabled/5
+execute if score Percentage durability_warn_num matches 10 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_off/enabled/10
+execute if score Percentage durability_warn_num matches 20 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 1 run function durability_warn:menus/sound_off/enabled/20
+execute if score Percentage durability_warn_num matches 5 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_off/disabled/5
+execute if score Percentage durability_warn_num matches 10 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_off/disabled/10
+execute if score Percentage durability_warn_num matches 20 if score Sound durability_warn_num matches 0 if score Enabled durability_warn_num matches 0 run function durability_warn:menus/sound_off/disabled/20
+scoreboard players set @s settings 0

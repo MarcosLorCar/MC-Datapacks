@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "rgb_armor:netherite/hat"
+            }
+        }
+    },
+    "rewards": {
+        "function": "rgb_armor:craft_netherite_hat"
+    }
+}

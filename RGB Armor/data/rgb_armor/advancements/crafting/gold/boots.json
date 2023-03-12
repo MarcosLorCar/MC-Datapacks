@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "rgb_armor:gold/boots"
+            }
+        }
+    },
+    "rewards": {
+        "function": "rgb_armor:craft_gold_boots"
+    }
+}
